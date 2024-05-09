@@ -1,6 +1,8 @@
+{{-- Part next page --}}
 <div class="clearfix"></div>
 
 <div class="container">
+    <p></p>
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto mt-4 mb-4">
             <div class="row">

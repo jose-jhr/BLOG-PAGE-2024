@@ -10,19 +10,19 @@ return [
     */
 
     'post' => [
-        'create'            => 'Create New Post',
-        'edit'              => 'Edit Post',
-        'view'              => 'View Post',
-        'delete'            => 'Delete Post',
-        'save-new-post'     => 'Save New Post',
+        'create'            => 'Crear Nuevi Post',
+        'edit'              => 'Editar Post',
+        'view'              => 'Visualizar Post',
+        'delete'            => 'Eliminar Post',
+        'save-new-post'     => 'Guardar Nuevo Post',
         'select-pub-date'   => 'Select Post Publish Date',
         'select-pub-time'   => 'Select Post Publish Time',
     ],
 
     'tag' => [
-        'create'    => 'Create New Tag',
-        'edit'      => 'Edit Tag',
-        'delete'    => 'Delete Tag',
+        'create'    => 'Crear Nueva Tag',
+        'edit'      => 'Editar Tag',
+        'delete'    => 'Eliminar Tag',
     ],
 
 ];

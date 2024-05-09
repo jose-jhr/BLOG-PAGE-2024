@@ -12,13 +12,13 @@ return [
     'nav' => [
         'menu'      => 'Menu',
         'home'      => 'Home',
-        'about'     => 'About',
-        'authors'   => 'Authors',
-        'contact'   => 'Contact',
-        'register'  => 'Register',
+        'about'     => 'Acerca',
+        'authors'   => 'Autores',
+        'contact'   => 'Contacto',
+        'register'  => 'Registrarse',
         'login'     => 'Login',
         'admin'     => 'Admin',
-        'logout'    => 'Logout',
+        'logout'    => 'Cerrar Session',
     ],
 
     'blogroll' => [
@@ -27,14 +27,14 @@ return [
     ],
 
     'pagination' => [
-        'nextPost'  => 'Older Posts',
-        'prevPost'  => 'Newer Posts',
+        'nextPost'  => 'Anterior Posts',
+        'prevPost'  => 'Siguiente Posts',
         'noposts'   => 'No Posts',
     ],
 
     'home' => [
-        'title'         => 'Welcome to Larablog',
-        'description'   => 'Larablog is an open source blog built on Laravel and Bootstrap',
+        'title'         => 'Welcome to CAMAWARI',
+        'description'   => 'Sitio oficial de camawari',
     ],
 
     'tags' => [
@@ -55,14 +55,14 @@ return [
     ],
 
     'footer' => [
-        'copyright' => '&copy; Lara(b)log 2018 | An <a href="https://github.com/jeremykenedy/larablog" target="_blank" class="text-success">opensource</a> blog platform<br /> Developed with Love <i class="fa fa-heart text-danger"></i> by <a href="https://github.com/jeremykenedy" class="text-muted" target="_blank">Jeremy Kenedy</a>',
+        'copyright' => '&copy; BLOG INGENIERIA JHR | An <a href="https://github.com/jose-jhr" target="_blank" class="text-success">Pagina github</a><br /> Developed with Love <i class="fa fa-heart text-danger"></i> by <a href="https://github.com/jose-jhr" class="text-muted" target="_blank">JOSE HIDALGO RODRIGUEZ</a>',
     ],
 
     'contact' => [
-        'pageTitle' => 'Contact Me',
+        'pageTitle' => 'Contactame',
         'pageDesc'  => '',
-        'title'     => 'Contact Me',
-        'subtitle'  => 'Need something? I can help (maybe).',
+        'title'     => 'Contactame',
+        'subtitle'  => 'Necesitas algo? ',
     ],
 
 ];
