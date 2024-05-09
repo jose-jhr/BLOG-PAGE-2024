@@ -140,7 +140,8 @@
             <div class="card-footer">
                 <p class="stats text-muted">
                     {!! trans('admin.dashboard.welcome-card-footer') !!}
-                    <iframe src="https://ghbtns.com/github-btn.html?user=jeremykenedy&repo=larablog&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px" style="margin: 3px 0 -5px .5em;"></iframe>
+                    <iframe src="https://ghbtns.com/github-btn.html?user=jose-jhr&repo=jose-jhr&type=followers
+                    " frameborder="0" scrolling="0" width="170px" height="20px" style="margin: 3px 0 -5px .5em;"></iframe>
                 </p>
             </div>
         </div>

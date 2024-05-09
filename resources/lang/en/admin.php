@@ -4,7 +4,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Lara(b)log Admin language lines
+    | CamawariPagina Admin language lines
     |--------------------------------------------------------------------------
     |
     */
@@ -14,17 +14,17 @@ return [
     ],
 
     'drawer-nav' => [
-        'dashboard'     => 'Dashboard',
+        'dashboard'     => 'Cuadro de mando',
         'posts'         => 'Posts',
         'tags'          => 'Tags',
-        'file-manager'  => 'Files',
-        'users'         => 'Users',
-        'sitemap-admin' => 'Sitemap',
-        'themes'        => 'Themes',
+        'file-manager'  => 'Archivos',
+        'users'         => 'Usuarios',
+        'sitemap-admin' => 'Lugares y mapas',
+        'themes'        => 'Temas',
         'roles'         => 'Roles',
         'phpinfo'       => 'PHP Info',
         'activity'      => 'Activity',
-        'settings'      => 'Settings',
+        'settings'      => 'Configuracion',
     ],
 
     'footer' => [
@@ -39,28 +39,28 @@ return [
 
     'access_levels' => [
         'roles'     => [
-            'super-admin'   => 'Super Admin',
-            'admin'         => 'Admin',
-            'moderator'     => 'Moderator',
-            'writer'        => 'Writer',
-            'user'          => 'User',
+            'super-admin'   => 'Super Administrador',
+            'admin'         => 'Administrador',
+            'moderator'     => 'Moderador',
+            'writer'        => 'Escritor',
+            'user'          => 'Usuario',
         ],
         'permissions' => [
-            'view-users'    => 'View Users',
-            'create-users'  => 'Create Users',
-            'edit-users'    => 'Edit Users',
-            'delete-users'  => 'Delete Users',
+            'view-users'    => 'Visualizar usuarios',
+            'create-users'  => 'Crear usuarios',
+            'edit-users'    => 'Editar usuarios',
+            'delete-users'  => 'Eliminar usuarios',
         ],
     ],
 
     'dashboard' => [
-        'title'                     => 'Dashboard',
-        'header'                    => 'Welcome!',
-        'welcome-card-title'        => 'Hi :username, Welcome to Lara(b)og2',
-        'welcome-card-sub-title'    => 'Lara(b)log An opensource blog platform built on Laravel and Bootstrap 4.',
-        'welcome-access'            => 'Your role level: ',
-        'access-level-string'       => '{0} You have no access.|{1} You have access to level:|[2,*] You have access to levels:',
-        'welcome-card-footer'       => '<em>Thank you</em> for checking this project out. <strong>Please remember to star it!</strong>',
+        'title'                     => 'dashboard',
+        'header'                    => 'Bienvenido!',
+        'welcome-card-title'        => 'Hi :username, Bienvenido al panel de administracion camawari',
+        'welcome-card-sub-title'    => 'CamawariPagina Plataforma construido con laravel y Bootstrap 4.',
+        'welcome-access'            => 'Tu Rol es: ',
+        'access-level-string'       => '{0} Tu no tienes acceso|{1} Tu tiene accedo al nivel:|[2,*] Tu tienes acceso al nivel:',
+        'welcome-card-footer'       => '<em></em> INGENIERIO JOSE HIDALGO. <strong>Sigueme en GITHUB!</strong>',
         'permissions-string'        => 'You have permissions:',
     ],
 
@@ -82,55 +82,55 @@ return [
             ],
         ],
         'table' => [
-            'title'  => 'Blog Posts',
+            'title'  => 'Blogs',
             'titles' => [
                 'id'        => 'Id',
-                'published' => 'Published',
-                'title'     => 'Title',
-                'subtitle'  => 'SubTitle',
-                'author'    => 'Author',
-                'image'     => 'Image',
+                'published' => 'Publicado',
+                'title'     => 'Titulo',
+                'subtitle'  => 'Sub titulo',
+                'author'    => 'Autor',
+                'image'     => 'Imagen',
                 'tags'      => 'Tags',
-                'actions'   => 'Actions',
+                'actions'   => 'Acciones',
             ],
         ],
     ],
 
     'buttons' => [
-        'edit'          => 'Edit',
-        'view'          => 'View',
-        'delete'        => 'Delete',
-        'create'        => 'Create Post',
-        'create-tag'    => 'Create Tag',
+        'edit'          => 'Editar',
+        'view'          => 'Visualizar',
+        'delete'        => 'Borrar',
+        'create'        => 'Crear Post',
+        'create-tag'    => 'Crear Tag',
         'edit-tag'      => '<span class="hidden-xs hidden-sm hidden-md">Edit</span> <span class="hidden-xs hidden-sm hidden-md hidden-lg">Tag</span>',
     ],
 
     'modals' => [
         'delete-post' => [
-            'close'     => 'Close',
-            'title'     => 'Confirm Delete',
-            'message'   => 'Delete this post?',
-            'cancel'    => 'Cancel',
-            'confirm'   => 'Confirm Delete',
+            'close'     => 'Cerrar',
+            'title'     => 'Confirmar Borrar',
+            'message'   => 'Eliminar este post?',
+            'cancel'    => 'Cancelar',
+            'confirm'   => 'Confirmar Eliminar',
         ],
         'save-post' => [
-            'close'     => 'Close',
-            'title'     => 'Confirm Save',
-            'message'   => 'Save post change?',
-            'cancel'    => 'Cancel',
-            'confirm'   => 'Confirm Save',
+            'close'     => 'Cerrar',
+            'title'     => 'Confirm Guardar',
+            'message'   => 'Guardar post con cambios?',
+            'cancel'    => 'Cancelar',
+            'confirm'   => 'Confirmar Guardar',
         ],
         'delete-tag' => [
-            'close'     => 'Close',
-            'title'     => 'Confirm Delete',
-            'message'   => 'Delete this tag?',
-            'cancel'    => 'Cancel',
-            'confirm'   => 'Confirm Delete',
+            'close'     => 'Cerrar',
+            'title'     => 'Confirmar Borrar',
+            'message'   => 'Eliminar este tag?',
+            'cancel'    => 'Cancelar',
+            'confirm'   => 'Confirmar Eliminar',
         ],
     ],
 
     'loader' => [
-        'message' => 'loading',
+        'message' => 'Cargando',
     ],
 
     'user_pages' => [

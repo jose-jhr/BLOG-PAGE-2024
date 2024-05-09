@@ -25,6 +25,7 @@
         <div class="card ">
             <div class="card-header">
                 <h5 class="card-title">
+                    <p>asdfasd</p>
                     {!! trans('laravel-filemanager::lfm.title-panel') !!}
                 </h5>
             </div>

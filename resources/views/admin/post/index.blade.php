@@ -1,5 +1,6 @@
 @extends('layouts.admin')
 
+
 @section('template_title')
     {{ trans('admin.posts.pages.index.title') }}
 @endsection
@@ -14,7 +15,7 @@
 
 @section('content')
 
-<div class="content">
+<div class="content scrollable" style="max-height: 90vh; overflow-y: auto;">
     <div class="row">
         <div class="col-md-12">
             <div class="card">
@@ -23,9 +24,11 @@
                         <i class="nc-icon nc-simple-add" aria-hidden="true"></i>
                         <span class="hidden-xs">
                             {{ trans('admin.buttons.create') }}
+                       
                         </span>
                     </a>
                     <h4 class="card-title">
+                        
                         {{ trans('admin.posts.table.title') }}
                     </h4>
                     <span class="badge badge-pill badge-primary">

@@ -1,6 +1,5 @@
 <div class="row">
     <div class="col-md-8">
-
         <div class="form-group has-feedback row {{ $errors->has('title') ? ' has-error ' : '' }}">
             {!! Form::label('title', trans('forms.edit-post.labels.post-title'), ['class' => 'col-12 control-label']); !!}
             <div class="col-12">
