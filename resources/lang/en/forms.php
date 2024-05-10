@@ -73,28 +73,28 @@ return [
 
     'contact' => [
         'labels' => [
-            'firstname' => 'Firstname *',
-            'lastname'  => 'Lastname',
-            'email'     => 'Email *',
-            'phone'     => 'Phone Number',
-            'message'   => 'Message *',
+            'firstname' => 'Nombre *',
+            'lastname'  => 'Apellido',
+            'email'     => 'Correo Electrónico *',
+            'phone'     => 'Número de Teléfono',
+            'message'   => 'Mensaje *',
         ],
         'placeholders' => [
-            'firstname' => 'Please enter your firstname *',
-            'lastname'  => 'Please enter your lastname ',
-            'email'     => 'Please enter your email  *',
-            'phone'     => 'Please enter your phone number ',
-            'message'   => 'Please enter your message  *',
+            'firstname' => 'Por favor ingresa tu nombre *',
+            'lastname'  => 'Por favor ingresa tu apellido',
+            'email'     => 'Por favor ingresa tu correo electrónico *',
+            'phone'     => 'Por favor ingresa tu número de teléfono',
+            'message'   => 'Por favor ingresa tu mensaje *',
         ],
         'buttons' => [
-            'send' => 'Send Message',
+            'send' => 'Enviar Mensaje',
         ],
         'messages' => [
-            'required'  => '<strong>*</strong> Required fields.',
-            'sent'      => 'Thank you for your message. It has been sent.',
+            'required'  => '<strong>*</strong> Campos requeridos.',
+            'sent'      => 'Gracias por tu mensaje. Ha sido enviado.',
         ],
         'validation' => [
-            'captcha' => 'Captcha is required',
+            'captcha' => 'El captcha es requerido',
         ],
     ],
 

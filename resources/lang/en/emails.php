@@ -10,15 +10,15 @@ return [
     */
 
     'contact' => [
-        'intro'     => 'You have received a new message from your website contact form.',
-        'details'   => 'Contact Details:',
+        'intro'     => 'Tu recibirar un correo electronico',
+        'details'   => 'Contacto detalles:',
 
         'labels' => [
-            'firstname' => 'Firstname:',
-            'lastname'  => 'Lastname:',
-            'phone'     => 'Phone:',
-            'email'     => 'Email:',
-            'message'   => 'Message:',
+            'firstname' => 'Primer Nombre:',
+            'lastname'  => 'Segundo Nombre:',
+            'phone'     => 'Celular:',
+            'email'     => 'Correo:',
+            'message'   => 'Mensaje:',
         ],
     ],
 

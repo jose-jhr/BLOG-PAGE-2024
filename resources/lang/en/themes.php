@@ -9,6 +9,99 @@ return [
     |
     */
 
+    // Mensajes
+    'createSuccess'     => '¡Tema creado!',
+    'updateSuccess'     => '¡Tema actualizado!',
+    'deleteSuccess'     => '¡Tema eliminado!',
+    'deleteSelfError'   => 'No puedes eliminar el tema predeterminado.',
+
+    // Compartido
+    'statusLabel'       => 'Estado del Tema',
+    'statusEnabled'     => 'Habilitado',
+    'statusDisabled'    => 'Deshabilitado',
+
+    'nameLabel'         => 'Nombre del Tema *',
+    'namePlaceholder'   => 'Ingresa el Nombre del Tema',
+
+    'linkLabel'         => 'Enlace CSS del Tema *',
+    'linkPlaceholder'   => 'Ingresa el Enlace CSS',
+
+    'notesLabel'        => 'Notas del Tema',
+    'notesPlaceholder'  => 'Ingresa las Notas del Tema',
+
+    'themes'            => 'Temas',
+
+    // Agregar Tema
+    'btnAddTheme'       => 'Agregar Tema',
+
+    // Editar Tema
+    'editTitle'         => 'Editando Tema:',
+    'editSave'          => 'Guardar Cambios del Tema',
+    'themeTitle'        => 'Tema :name',
+
+    // Mostrar Tema
+    'showHeadTitle'     => 'Tema',
+    'showTitle'         => 'Información del Tema',
+    'showBackBtn'       => 'Volver a Temas',
+    'showUsers'         => 'Usuarios del Tema',
+    'showStatus'        => 'Estado',
+    'showLink'          => 'Enlace CSS',
+    'showNotes'         => 'Notas',
+    'showAdded'         => 'Agregado',
+    'showUpdated'       => 'Actualizado',
+    'confirmDeleteHdr'  => 'Eliminar Tema',
+    'confirmDelete'     => '¿Seguro que deseas eliminar este tema?',
+
+    // Mostrar Temas
+    'themesTitle'       => 'Mostrando Todos',
+    'themesStatus'      => 'Estado',
+    'themesUsers'       => 'Usuarios',
+    'themesName'        => 'Nombre',
+    'themesLink'        => 'Enlace CSS',
+    'themesActions'     => 'Acciones',
+    'themesBtnShow'     => 'Mostrar Tema',
+    'themesBtnEdit'     => 'Editar Tema',
+    'themesBtnDelete'   => 'Eliminar Tema',
+    'themesBtnEdits'    => 'Editar Tema',
+
+    // Pistas
+    'backToThemeTt'     => 'Volver al Tema',
+    'backToThemesTt'    => 'Volver a Temas',
+
+    // Botones
+    'backToThemeBtn'    => 'Volver <span class="hidden-xs">al Tema</span>',
+    'backToThemesBtn'   => '<span class="hidden-xs">Volver a </span>Temas',
+
+    // Formulario
+    'theme_updating'    => 'Actualizando Tema Predeterminado...',
+    'theme_updated'     => 'Tema Actualizado Exitosamente.',
+    'theme_deleted'     => 'Tema Eliminado Exitosamente: <strong>:name</strong>',
+
+    'default' => [
+        'label' => 'Tema Predeterminado del Blog',
+    ],
+
+    // Títulos de Página
+    'titles' => [
+        'index'     => 'Mostrando Temas',
+        'show'      => 'Mostrando Tema',
+        'edit'      => 'Editando Tema del Blog',
+        'create'    => 'Agregar Nuevo Tema',
+    ],
+
+    // Cabeceras de Página
+    'header' => [
+        'index'     => 'Mostrando Todos los Temas',
+        'show'      => 'Mostrando Tema del Blog',
+        'edit'      => 'Editando Tema del Blog',
+        'create'    => 'Agregando Nuevo Tema',
+    ],
+
+];
+
+
+
+    /*
     // Messages
     'createSuccess'     => 'Theme created! ',
     'updateSuccess'     => 'Theme updated! ',
@@ -96,5 +189,5 @@ return [
         'edit'      => 'Editing Blog Theme',
         'create'    => 'Adding New Theme',
     ],
+*/
 
-];

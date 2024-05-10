@@ -12,8 +12,8 @@
 @endsection
 
 @section('content')
-    <div class="card">
-        <div class="card-header">
+<div class="card scrollable" style="max-height: 90vh; overflow-y: auto;">
+    <div class="card-header">
             @include('admin.themesmanagement.partials.default-theme-form')
         </div>
         <hr>

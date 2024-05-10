@@ -14,7 +14,7 @@ return [
     | Default entry for blog HTML attribute `title`.
     |--------------------------------------------------------------------------
     */
-    'title' => env('BLOG_DEFAULT_TITLE', 'Lara(b)log2'),
+    'title' => env('BLOG_DEFAULT_TITLE', 'CAMAWARI NOTICIAS'),
 
     /*
     |--------------------------------------------------------------------------
@@ -35,7 +35,7 @@ return [
     | Default entry for blog HTML attribute `author`.
     |--------------------------------------------------------------------------
     */
-    'author' => env('BLOG_DEFAULT_AUTHOR', 'Jeremy Kenedy'),
+    'author' => env('BLOG_DEFAULT_AUTHOR', 'JOSE HIDALGO RODRIGUEZ'),
 
     /*
     |--------------------------------------------------------------------------

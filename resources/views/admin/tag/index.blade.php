@@ -17,7 +17,7 @@
 
 @section('content')
 
-<div class="content">
+<div class="content scrollable" style="max-height: 90vh; overflow-y: auto;">
     <div class="row">
         <div class="col-md-12">
             <div class="card">

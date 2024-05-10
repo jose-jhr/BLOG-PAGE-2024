@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Lara(b)log2'),
+    'name' => env('APP_NAME', 'CAMAWARI NOTICIAS'),
 
     /*
     |--------------------------------------------------------------------------

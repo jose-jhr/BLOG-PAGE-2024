@@ -55,13 +55,13 @@ return [
     ],
 
     'footer' => [
-        'copyright' => '&copy; BLOG INGENIERIA JHR | An <a href="https://github.com/jose-jhr" target="_blank" class="text-success">Pagina github</a><br /> Developed with Love <i class="fa fa-heart text-danger"></i> by <a href="https://github.com/jose-jhr" class="text-muted" target="_blank">JOSE HIDALGO RODRIGUEZ</a>',
+        'copyright' => '&copy; BLOG CAMAWARI | <a href="https://github.com/jose-jhr" target="_blank" class="text-success">Pagina github</a><br /> Developed with Love <i class="fa fa-heart text-danger"></i> by <a href="https://github.com/jose-jhr" class="text-muted" target="_blank">JOSE HIDALGO RODRIGUEZ</a>',
     ],
 
     'contact' => [
         'pageTitle' => 'Contactame',
         'pageDesc'  => '',
-        'title'     => 'Contactame',
+        'title'     => 'Contactanos',
         'subtitle'  => 'Necesitas algo? ',
     ],
 

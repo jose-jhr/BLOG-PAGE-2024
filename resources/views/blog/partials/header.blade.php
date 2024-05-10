@@ -1,3 +1,4 @@
+{{-- Image body notice--}}
 <header class="masthead" style="background-image: url('{{ $image }}')">
     <div class="overlay"></div>
     <div class="container">

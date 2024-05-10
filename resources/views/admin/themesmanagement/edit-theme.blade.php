@@ -29,8 +29,8 @@
 @endphp
 
 @section('content')
-    <div class="card">
-        <div class="card-header">
+<div class="card scrollable" style="max-height: 90vh; overflow-y: auto;">
+    <div class="card-header">
             <div class="pull-right">
                 <a href="{{ route('showtheme', $theme->id) }}" class="btn btn-light btn-sm float-right" data-toggle="tooltip" data-placement="top" title="{{ trans('themes.backToThemeTt') }}">
                     <i class="fa fa-fw fa-mail-reply" aria-hidden="true"></i>

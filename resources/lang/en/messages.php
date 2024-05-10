@@ -16,10 +16,10 @@ return [
     ],
 
     'success' => [
-        'post-created' => 'New Post Successfully Created.',
-        'post-updated' => 'Post update saved.',
-        'post-deleted' => 'Post deleted.',
-        'single-title' => 'Success',
+        'post-created' => 'Nuevo Post creado correctamente.',
+        'post-updated' => 'Post Actualizado.',
+        'post-deleted' => 'Post Eliminado.',
+        'single-title' => 'Correcto',
         'tag-created'  => 'The tag <strong>:tag</strong> was created.',
         'tag-updated'  => 'The tag <strong>:tag</strong> was updated.',
         'tag-deleted'  => 'Tag <strong>:tag</strong> deleted.',
